@@ -19,6 +19,7 @@ gameBody.onclick=()=>{
     gunSound.play();
 }
 
+
 // Iteration 1.3: Add background sound
 const backgroundSound=new Audio("./assets/bgm.mp3");
 backgroundSound.play(); 
@@ -44,7 +45,6 @@ function makeZombie(){
     console.log("onclick")
     }
 }
-
 // Iteration 3: Write a function to check if the player missed a zombie
 function checkIfZombiePasses(zombie){
     if(zombie.getBoundingClientRect().top<=0){
